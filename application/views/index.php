@@ -320,7 +320,7 @@
           onEachFeature: function(feature, layer) {
             layer.bindPopup(
               '<p><b>Nama Jalan:</b> <br>' + feature.properties.nama_jalan + '</p>' +
-              '<p><b>Deskripsi:</b> <br>' + feature.properties.deskripsi + '</p>'
+              '<p><b>Deskripsi:</b> <br>' + feature.properties.nama_jalan + '</p>'
             );
           },
 

@@ -113,20 +113,43 @@
     <div class="col-4 mt-5">
       <div class="inputs" id="jalans">
         <div class="row mb-2">
+          <div class="col-12 d-flex">
+            <div class="container d-flex">
+              <h4>Wilayah&nbsp;&nbsp;<input class="m-auto float-left" id="wilayah" type="checkbox" checked="true"></h4>
+            </div>
+            <script>
+              $(function() {
+                $('#wilayah').on('change', function() {
+                  $('.jalan').prop('checked', $(this).prop('checked'));
+                  jalanPelanggan.clearLayers()
+                  updateCheckboxStates()
+                  jalanPelanggan.addData(pdam)
+                });
+                $('.jalan').on('change', function() {
+                  $('#wilayah').prop('checked', $('.jalan:checked').length ? true : false);
+                  jalanPelanggan.clearLayers()
+                  updateCheckboxStates()
+                  jalanPelanggan.addData(pdam)
+                });
+              });
+            </script>
+          </div>
+        </div>
+        <div class="row mb-2">
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan HR. Subrantas" id="1" checked="true">
+              <input class="jalan" type="checkbox" value="Wilayah 01" id="1" checked="true">
               <label class="form-check-label" for="1">
-                Jalan HR. Subrantas
+                Wilayah 01
               </label>
 
             </div>
           </div>
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Ir Juanda" id="2" checked="true">
+              <input class="jalan" type="checkbox" value="Wilayah 05" id="2" checked="true">
               <label class="form-check-label" for="2">
-                Jalan Ir Juanda
+                Wilayah 05
               </label>
             </div>
           </div>
@@ -134,17 +157,17 @@
         <div class="row mb-2">
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Jati" id="3" checked="true">
+              <input class="jalan" type="checkbox" value="Wilayah 02" id="3" checked="true">
               <label class="form-check-label" for="3">
-                Jalan Jati
+                Wilayah 02
               </label>
             </div>
           </div>
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Kapur" id="4" checked="true">
+              <input class="jalan" type="checkbox" value="Wilayah 06" id="4" checked="true">
               <label class="form-check-label" for="4">
-                Jalan Kapur
+                Wilayah 06
               </label>
             </div>
           </div>
@@ -152,144 +175,81 @@
         <div class="row mb-2">
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Sekolah" id="5" checked="true">
-              <label class=" form-check-label" for="5">
-                Jalan Sekolah
+              <input class="jalan" type="checkbox" value="Wilayah 03" id="3" checked="true">
+              <label class="form-check-label" for="3">
+                Wilayah 03
               </label>
             </div>
           </div>
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Pari" id="6" checked="true">
-              <label class="form-check-label" for="6">
-                Jalan Pari
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Udang" id="19" checked="true">
-              <label class="form-check-label" for="19">
-                Jalan Udang
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Belanak" id="20" checked="true">
-              <label class="form-check-label" for="20">
-                Jalan Belanak
+              <input class="jalan" type="checkbox" value="Wilayah 07" id="4" checked="true">
+              <label class="form-check-label" for="4">
+                Wilayah 07
               </label>
             </div>
           </div>
         </div>
-        <div class="row mb-2">
+        <div class="row mb-4">
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Tanjung Uban" id="17" checked="true">
-              <label class="form-check-label" for="17">
-                Jalan Tanjung Uban
+              <input class="jalan" type="checkbox" value="Wilayah 04" id="3" checked="true">
+              <label class="form-check-label" for="3">
+                Wilayah 04
               </label>
             </div>
           </div>
           <div class="col-6">
             <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Mujair" id="18" checked="true">
-              <label class="form-check-label" for="18">
-                Jalan Mujair
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Tanjung Medang" id="15" checked="true">
-              <label class="form-check-label" for="15">
-                Jalan Tanjung Medang
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Tanjung Datuk" id="16" checked="true">
-              <label class="form-check-label" for="16">
-                Jalan Tanjung Datuk
+              <input class="jalan" type="checkbox" value="Wilayah 08" id="4" checked="true">
+              <label class=" form-check-label" for="4">
+                Wilayah 08
               </label>
             </div>
           </div>
         </div>
-        <div class="row mb-2">
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Sepat" id="13" checked="true">
-              <label class="form-check-label" for="13">
-                Jalan Sepat
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Tanjung Batu" id="14" checked="true">
-              <label class="form-check-label" for="14">
-                Jalan Tanjung Batu
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Gurami Raya" id="11" checked="true">
-              <label class="form-check-label" for="11">
-                Jalan Gurami Raya
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Kurnia" id="12" checked="true">
-              <label class="form-check-label" for="12">
-                Jalan Kurnia
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Baung" id="9" checked="true">
-              <label class="form-check-label" for="9">
-                Jalan Baung
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Bandeng" id="10" checked="true">
-              <label class="form-check-label" for="10">
-                Jalan Bandeng
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="row mb-2">
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Yos Sudarso" id="7" checked="true">
-              <label class="form-check-label" for="7">
-                Jalan Yos Sudarso
-              </label>
-            </div>
-          </div>
-          <div class="col-6">
-            <div class="form-check">
-              <input class="jalan" type="checkbox" value="Jalan Pramuka" id="8" checked="true">
-              <label class="form-check-label" for="8">
-                Jalan Pramuka
-              </label>
+        <div class="row">
+          <div class="col-12">
+            <div class="container">
+              <h4>Keterangan:</h4>
+              <div class="col-12">
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+                <p>
+                  <b>Wilayah 1</b><br>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nemo blanditiis accusamus ipsam suscipit corrupti dignissimos, eos, nulla porro voluptate! Ad accusantium vero sint ut odio. Ducimus, dolorem minima.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -320,7 +280,9 @@
           onEachFeature: function(feature, layer) {
             layer.bindPopup(
               '<p><b>Nama Jalan:</b> <br>' + feature.properties.nama_jalan + '</p>' +
-              '<p><b>Deskripsi:</b> <br>' + feature.properties.nama_jalan + '</p>'
+              '<p><b>Kecamatan:</b> <br>' + feature.properties.Kecamatan + '</p>' +
+              '<p><b>Kelurahan:</b> <br>' + feature.properties.Kelurahan + '</p>' +
+              '<p><b>Jumlah Customer:</b> <br>' + feature.properties.customer + '</p>'
             );
           },
 
@@ -377,84 +339,336 @@
                 break;
               case 'Jalan Pramuka':
                 return {
-                  color: "#052983",
+                  color: "#041562",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Baung':
                 return {
-                  color: "#052983",
+                  color: "#DA1212",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Bandeng':
                 return {
-                  color: "#052983",
+                  color: "#F76E11",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Gurami Raya':
                 return {
-                  color: "#052983",
+                  color: "#FC4F4F",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Kurnia':
                 return {
-                  color: "#052983",
+                  color: "#D3ECA7",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Sepat':
                 return {
-                  color: "#052983",
+                  color: "#B33030",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Tanjung Batu':
                 return {
-                  color: "#052983",
+                  color: "#313552",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Tanjung Medang':
                 return {
-                  color: "#052983",
+                  color: "#2EB086",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Tanjung Datuk':
                 return {
-                  color: "#052983",
+                  color: "#FA4EAB",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Tanjung Uban':
+                return {
+                  color: "#655D8A",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Mujair':
                 return {
-                  color: "#052983",
+                  color: "#7897AB",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Udang':
                 return {
-                  color: "#052983",
+                  color: "#D885A3",
                     weight: "4",
                     opacity: "0.5"
                 };
                 break;
               case 'Jalan Belanak':
                 return {
-                  color: "#052983",
+                  color: "#270082",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Hasanuddin':
+                return {
+                  color: "#D3ECA7",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Rokan':
+                return {
+                  color: "#BF9270",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Setia Budhi':
+                return {
+                  color: "#C1DEAE",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Singgalang':
+                return {
+                  color: "#D885A3",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Kerinci':
+                return {
+                  color: "#1572A1",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Dr. Sutomo':
+                return {
+                  color: "#D67D3E",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Kuantan Raya':
+                return {
+                  color: "#041562",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Sisingamangaraja':
+                return {
+                  color: "#DA1212",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Kinibalu':
+                return {
+                  color: "#FFAEBC",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan K.H. Wahid Hasyim':
+                return {
+                  color: "#A0E7E5",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Sultan Syarif Kasim':
+                return {
+                  color: "#B4F8C8",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Teuku Umar':
+                return {
+                  color: "#FBE7C6",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Gatot Subroto':
+                return {
+                  color: "#2FF3E0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Lokomotif':
+                return {
+                  color: "#F8D210",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Tanjung Jat':
+                return {
+                  color: "#FA26A0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Amal Hamzah':
+                return {
+                  color: "#F51720",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Bima':
+                return {
+                  color: "#BCECE0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Borobudur':
+                return {
+                  color: "#36EEE0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Cemara':
+                return {
+                  color: "#F652A0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Khairul Anwar':
+                return {
+                  color: "#4C5270",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Diponegoro':
+                return {
+                  color: "#A4E8E0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Enggano':
+                return {
+                  color: "#4CD7D0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Gajah Mada':
+                return {
+                  color: "#E1C340",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Hang Jebat':
+                return {
+                  color: "#E56997",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Hang Tuah':
+                return {
+                  color: "#BD97CB",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Kembang Sari':
+                return {
+                  color: "#FBC740",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Kartini':
+                return {
+                  color: "#66D2D6",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Kundur':
+                return {
+                  color: "#EEB5EB",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Lembaga Permasyarakatan':
+                return {
+                  color: "#C26DBC",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Muara Takus':
+                return {
+                  color: "#C8F4F9",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Pattimura':
+                return {
+                  color: "#3CACAE",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Ronggowarsito':
+                return {
+                  color: "#C4DBE0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Sewu':
+                return {
+                  color: "#2EB5E0",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Sumatra':
+                return {
+                  color: "#00A8A8",
+                    weight: "4",
+                    opacity: "0.5"
+                };
+                break;
+              case 'Jalan Tangkuban Perahu':
+                return {
+                  color: "#0C6980",
                     weight: "4",
                     opacity: "0.5"
                 };
@@ -463,7 +677,7 @@
           },
 
           filter: (feature) => {
-            return isJalanPelangganChecked = checkboxStates.jalans.includes(feature.properties.nama_jalan)
+            return isJalanPelangganChecked = checkboxStates.jalans.includes(feature.properties.Wilayah)
           }
         }).addTo(map);
 

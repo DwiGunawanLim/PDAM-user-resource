@@ -3,7 +3,11 @@ var pdam = {
 	"features": [{
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan HR. Subrantas"
+			"nama_jalan" : "Jalan HR. Subrantas",
+            "Wilayah" : "Wilayah 04",
+            "Kecamatan" : "Tampan",
+            "Kelurahan" : "Sidomulyo Barat",
+            "customer" : "243 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -15,7 +19,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Ir Juanda"
+			"nama_jalan": "Jalan Ir Juanda",
+            "Wilayah" : "Wilayah 04",
+            "Kecamatan" : "Senapelan",
+            "Kelurahan" : "Sago",
+            "customer" : "96 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -27,7 +35,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Jati"
+			"nama_jalan": "Jalan Jati",
+            "Wilayah" : "Wilayah 04",
+            "Kecamatan" : "Payung Sekaki",
+            "Kelurahan" : "Labuh Baru",
+            "customer" : "280 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -46,7 +58,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Kapur"
+			"nama_jalan": "Jalan Kapur",
+            "Wilayah" : "Wilayah 04",
+            "Kecamatan" : "Senapelan",
+            "Kelurahan" : "Kampung Baru",
+            "customer" : "340 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -59,7 +75,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Sekolah"
+			"nama_jalan": "Jalan Sekolah",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "175 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -82,7 +102,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Pari"
+			"nama_jalan": "Jalan Pari",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "175 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -96,7 +120,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Yos Sudarso"
+			"nama_jalan": "Jalan Yos Sudarso",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Meranti Pandak",
+            "customer" : "132 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -129,7 +157,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Pramuka"
+			"nama_jalan": "Jalan Pramuka",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Lembah Sari",
+            "customer" : "375 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -168,7 +200,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Baung"
+			"nama_jalan": "Jalan Baung",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "57 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -180,7 +216,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Bandeng"
+			"nama_jalan": "Jalan Bandeng",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "36 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -202,7 +242,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Gurami Raya"
+			"nama_jalan": "Jalan Gurami Raya",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "64 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -216,7 +260,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Kurnia"
+			"nama_jalan": "Jalan Kurnia",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "59 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -233,7 +281,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Sepat"
+			"nama_jalan": "Jalan Sepat",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "40 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -248,7 +300,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Tanjung Batu"
+			"nama_jalan": "Jalan Tanjung Batu",
+            "Wilayah" : "Wilayah 07",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Pesisir",
+            "customer" : "52 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -285,7 +341,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Tanjung Medang"
+			"nama_jalan": "Jalan Tanjung Medang",
+            "Wilayah" : "Wilayah 07",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Pesisir",
+            "customer" : "17 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -297,7 +357,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Tanjung Datuk"
+			"nama_jalan": "Jalan Tanjung Datuk",
+            "Wilayah" : "Wilayah 07",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Tanjung Rhu",
+            "customer" : "6 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -327,7 +391,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Tanjung Uban"
+			"nama_jalan": "Jalan Tanjung Uban",
+            "Wilayah" : "Wilayah 07",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Pesisir",
+            "customer" : "9 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -345,7 +413,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Mujair"
+			"nama_jalan": "Jalan Mujair",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan Baru",
+            "customer" : "101 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -357,7 +429,11 @@ var pdam = {
 	}, {
 		"type": "Feature",
 		"properties": {
-			"nama_jalan": "Jalan Udang"
+			"nama_jalan": "Jalan Udang",
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "53 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -370,7 +446,10 @@ var pdam = {
 		"type": "Feature",
 		"properties": {
 			"nama_jalan": "Jalan Belanak",
-			"deskripsi": "asdkjasldkjaslkdj"
+            "Wilayah" : "Wilayah 06",
+            "Kecamatan" : "Rumbai Pesisir",
+            "Kelurahan" : "Limbungan",
+            "customer" : "93 Orang"
 		},
 		"geometry": {
 			"type": "LineString",
@@ -380,6 +459,763 @@ var pdam = {
 				[101.4377224445343, 0.4975757043200672],
 				[101.4377063512802, 0.4972592155835135],
 				[101.43750250339508, 0.49667988022984877]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Hasanuddin",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Rintis",
+            "customer" : "73 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.44765198230743, 0.5334487972427603],
+				[101.448834836483, 0.5333897912016868],
+				[101.44922375679016, 0.5333924732944698],
+				[101.44992917776108, 0.5333549239953296],
+				[101.4505085349083, 0.5332664149321545],
+				[101.45147681236267, 0.533118899824051],
+				[101.4537164568901, 0.5333146926031392]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Rokan",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Tanjung Uru",
+            "customer" : "29 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45480006933212, 0.5358787728056202],
+				[101.45481884479523, 0.5363910522991926],
+				[101.454958319664, 0.5371420378666931],
+				[101.45551085472107, 0.5371313095021003],
+				[101.45648717880249, 0.537120581137482],
+				[101.45694851875305, 0.5371044885905164],
+				[101.45735085010529, 0.5371313095021003],
+				[101.45814746618271, 0.5371956796894282],
+				[101.4587965607643, 0.5372680961493546],
+				[101.4594778418541, 0.5372975991513042],
+				[101.46070897579193, 0.537380743974195],
+				[101.46141439676283, 0.5374182932486796],
+				[101.46210372447968, 0.5374290216127763]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Setia Budhi",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Rintis",
+            "customer" : "232 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.44771367311478, 0.5359082758142617],
+				[101.45627528429031, 0.5358707265305026]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Singgalang",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Tenayan Raya",
+            "Kelurahan" : "Rintis",
+            "customer" : "3 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45639598369598, 0.5276098785375252],
+				[101.45767003297804, 0.5276286532045501],
+				[101.4590835571289, 0.527617924823393]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Kerinci",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Rintis",
+            "customer" : "1 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45637318491936, 0.525724365260465],
+				[101.45763784646988, 0.5256962032512827]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Dr. Sutomo",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Suka Mulia",
+            "customer" : "24 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4564710855484, 0.5379305726132614],
+				[101.45649522542953, 0.5371232632286366],
+				[101.45640939474106, 0.5320836118750434],
+				[101.45641475915909, 0.5307291545810384],
+				[101.45640403032303, 0.5282643097548294],
+				[101.45638793706894, 0.5269983607804495],
+				[101.45635575056076, 0.525724365260465],
+				[101.45640403032303, 0.5242760331957345],
+				[101.45624577999115, 0.5214786056860532],
+				[101.45636647939682, 0.5204245411146282],
+				[101.45647644996643, 0.5202072911428968],
+				[101.4567768573761, 0.5200731862183233],
+				[101.45826280117035, 0.5198049763606654]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Kuantan Raya",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Sekip",
+            "customer" : "74 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45641475915909, 0.5320822708283592],
+				[101.45781889557838, 0.5320205826808136],
+				[101.45828291773796, 0.5320152184940518],
+				[101.45923376083374, 0.5319629176727733],
+				[101.46058827638626, 0.5318931832437236],
+				[101.46116092801094, 0.531882454869958],
+				[101.46387264132498, 0.5317765121779817],
+				[101.46550476551054, 0.5317027546065515],
+				[101.46691292524338, 0.5315498752738502],
+				[101.46728709340096, 0.531535123759091],
+				[101.46798446774483, 0.5314479557166084],
+				[101.46844312548637, 0.531419793733405]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Sisingamangaraja",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Kota Tinggi",
+            "customer" : "51 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4475728571415, 0.5283340442247557],
+				[101.4590460062027, 0.5282696739448609],
+				[101.45997941493988, 0.5282535813747791],
+				[101.4604139328003, 0.5281945752841398],
+				[101.46110594272614, 0.527921001583856],
+				[101.46231293678284, 0.5275830575845305],
+				[101.46388068795204, 0.5275361209165036],
+				[101.46463572978973, 0.5275079589155145],
+				[101.46488517522812, 0.5274248139594857]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Kinibalu",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Sekip",
+            "customer" : "2 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45911574363708, 0.5305306796258876],
+				[101.4590460062027, 0.5296187675880402],
+				[101.45903527736664, 0.5290421172595408],
+				[101.45905137062073, 0.5282750381348797],
+				[101.4591398835182, 0.526343929430058],
+				[101.45919889211653, 0.5249867887879307]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan K.H. Wahid Hasyim",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Sumahilang",
+            "customer" : "52 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.447574198246, 0.5275696471079823],
+				[101.45005524158476, 0.52752136939219]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Sultan Syarif Kasim",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Rintis",
+            "customer" : "39 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45372450351715, 0.5411383523671145],
+				[101.45370304584503, 0.5395398268817776],
+				[101.45374596118927, 0.5380834517870366],
+				[101.45373523235321, 0.5371018064993491],
+				[101.4537513256073, 0.5358734086222042],
+				[101.45376741886139, 0.5346128253917604],
+				[101.45372450351715, 0.5333120105103181],
+				[101.45368963479996, 0.532147982115283],
+				[101.45370304584503, 0.5315498752738502],
+				[101.45366817712784, 0.5307076978294363],
+				[101.45371377468109, 0.5251450324748309]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Teuku Umar",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Rintis",
+            "customer" : "94 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.44762247800827, 0.5322123523548483],
+				[101.45044952630997, 0.5322016239816298],
+				[101.45264089107513, 0.5321908956084114],
+				[101.45370304584503, 0.5321587104885905],
+				[101.4558407664299, 0.5321157969952459],
+				[101.4564174413681, 0.5320836118750434]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Gatot Subroto",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Kota Tinggi",
+            "customer" : "34 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.447576880455, 0.5298386993270948],
+				[101.45367085933685, 0.5297743290628103],
+				[101.456401348114, 0.5297475081191537]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Lokomotif",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Sekip",
+            "customer" : "78 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45947515964508, 0.5372975991513042],
+				[101.45959720015526, 0.5389913394330165],
+				[101.4596937596798, 0.5390624148264758],
+				[101.4601282775402, 0.5390221834717904],
+				[101.46069556474686, 0.5388478475984086],
+				[101.46203130483627, 0.5383369093561573],
+				[101.46264016628265, 0.5381102726943331],
+				[101.46365940570831, 0.5375912881174368],
+				[101.46380960941315, 0.5375322821162475],
+				[101.46413818001747, 0.5373338073807713],
+				[101.46483689546585, 0.5369140601148911],
+				[101.46516278386115, 0.5365224747801551],
+				[101.46548330783843, 0.5360276288932345],
+				[101.46558120846748, 0.5358439056133973],
+				[101.46568849682808, 0.535469753807466],
+				[101.46578371524811, 0.5350540295518842],
+				[101.46593660116196, 0.5341783264310507],
+				[101.46599024534225, 0.5338323364959219],
+				[101.4659982919693, 0.5334005195728316],
+				[101.46573007106781, 0.5324376481880472],
+				[101.46550208330154, 0.5316933672792029],
+				[101.46534383296965, 0.5309839535005988],
+				[101.46516412496567, 0.5304810608861076],
+				[101.46492406725883, 0.5300827699064254],
+				[101.46464377641678, 0.5296670452875099],
+				[101.46444797515869, 0.5294202925973053],
+				[101.46381631493568, 0.52899249850784],
+				[101.46343544125557, 0.5287859772127137],
+				[101.46272599697112, 0.5285083803961172],
+				[101.46153375506401, 0.5282307835671038]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Tanjung Jat",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Pesisir",
+            "customer" : "4 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45370841026306, 0.5395344627015931],
+				[101.45521581172943, 0.5396041970436738],
+				[101.45620822906494, 0.5398080358851767],
+				[101.45708799362183, 0.5398884985838989],
+				[101.45765662193298, 0.5402157135476998],
+				[101.45797848701477, 0.5402693553433621],
+				[101.4583271741867, 0.5395666477826621],
+				[101.45860612392426, 0.539116056632303]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Amal Hamzah",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Cintaraja",
+            "customer" : "2 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4522385597229, 0.5115709282157811],
+				[101.45315319299698, 0.5115601998073602],
+				[101.4542046189308, 0.5118766878482376],
+				[101.45474642515182, 0.5120858917988761],
+				[101.45483762025833, 0.5120617528818343],
+				[101.4548134803772, 0.510404213695007]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Bima",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "3 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45096719264984, 0.519772791176979],
+				[101.45018398761749, 0.5197969300647597]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Borobudur",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "5 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4484378695488, 0.5192631924134238],
+				[101.44842982292175, 0.5186945874287755],
+				[101.44849419593811, 0.5186275349508087],
+				[101.45010352134705, 0.5186141244551262]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Cemara",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Suka Maju",
+            "customer" : "10 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45847737789154, 0.5155793285534415],
+				[101.45889177918434, 0.5151340998679937],
+				[101.45905137062073, 0.5150187695407912],
+				[101.45927935838698, 0.5149570812253759],
+				[101.45981043577194, 0.514953058074357],
+				[101.46001294255257, 0.5148618666504181],
+				[101.46012961864471, 0.5147049637561901],
+				[101.46023288369179, 0.5146392522865244],
+				[101.46031737327576, 0.5145279451016516],
+				[101.46076530218124, 0.5141068552522178],
+				[101.46091416478157, 0.5140143227656538],
+				[101.46294057369232, 0.5139392239349894],
+				[101.463603079319, 0.5139378828844376],
+				[101.46391957998276, 0.5139217902777413],
+				[101.46454855799675, 0.5140210280183486],
+				[101.46483018994331, 0.5140183459172579],
+				[101.46513059735298, 0.5141685435758517],
+				[101.46522983908653, 0.5142811918174592],
+				[101.46550476551054, 0.5143710421992305],
+				[101.46569654345512, 0.5143737243001557],
+				[101.46588563919067, 0.5143187412308832],
+				[101.46600633859634, 0.5142530297572355],
+				[101.46626651287079, 0.5141376994141047],
+				[101.46634563803673, 0.5141175836563641],
+				[101.46661922335625, 0.514110878403771],
+				[101.4669558405876, 0.5141363583635912],
+				[101.46753787994383, 0.5140384616753167],
+				[101.46852359175682, 0.5138949692665044]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Khairul Anwar",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Cintaraja",
+            "customer" : "2 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45378351211548, 0.5132767449262825],
+				[101.45378351211548, 0.5128046950644508],
+				[101.45378351211548, 0.5122092684845267],
+				[101.4539122581482, 0.5117801321764065],
+				[101.45400345325469, 0.5103586179508185]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Diponegoro",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Cintaraja",
+            "customer" : "2 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45260334014893, 0.5251343040894119],
+				[101.45230829715729, 0.5175627415054441],
+				[101.45212054252625, 0.5104498094388774]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Enggano",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "2 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45112946629524, 0.5123058241498822],
+				[101.45118713378906, 0.5121730601096319],
+				[101.45114824175835, 0.5117559932582197],
+				[101.45119249820709, 0.5115950671346676],
+				[101.45134538412093, 0.5112235959840484],
+				[101.45145401358604, 0.5110050046471066],
+				[101.45153850317001, 0.5109446573441908]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Gajah Mada",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "6 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45230293273926, 0.5175573773062782],
+				[101.44765734672545, 0.5176646612888107]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Hang Jebat",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Suka Mulia",
+            "customer" : "84 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.46137416362761, 0.5249546036307956],
+				[101.46126687526703, 0.5221008523731352],
+				[101.46119177341461, 0.5208992725083204],
+				[101.46093428134918, 0.5192470998202257],
+				[101.46091282367705, 0.5181152539956568],
+				[101.46068215370178, 0.516420166979869]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Hang Tuah",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Tenayan Raya",
+            "Kelurahan" : "Rejosari",
+            "customer" : "98 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.44756078720093, 0.5252818193873944],
+				[101.45305931568146, 0.5252389058465196],
+				[101.45371377468109, 0.5251369861857698],
+				[101.45636916160583, 0.5250457949089379],
+				[101.46139025688171, 0.52496533201652],
+				[101.46975874900818, 0.5246971223676463],
+				[101.47074580192566, 0.5244610978671422],
+				[101.47142171859741, 0.5237530243121965],
+				[101.47181868553162, 0.5235384565524807],
+				[101.47346019744872, 0.523720839148713],
+				[101.47446870803832, 0.5244181843206315],
+				[101.47753715515137, 0.5240963327124625],
+				[101.47941470146179, 0.5242143449707232],
+				[101.48102402687073, 0.5216931735161356],
+				[101.48242950439453, 0.5199551738823553],
+				[101.48450016975401, 0.5173696303324633],
+				[101.48568034172058, 0.5162646051741177],
+				[101.48853421211243, 0.5142691223630922],
+				[101.48995041847229, 0.5130568126086213],
+				[101.49075508117676, 0.5125311206967467],
+				[101.49160265922546, 0.510825303787855],
+				[101.49304032325743, 0.5093447830847451],
+				[101.4990484714508, 0.5062228144015894],
+				[101.50109767913817, 0.5049354041971191],
+				[101.50309324264525, 0.5046993789653037],
+				[101.50543212890625, 0.5057614924410072],
+				[101.5087366104126, 0.5069738035695414],
+				[101.50914430618286, 0.5064695679949444],
+				[101.50910139083862, 0.5050534168098209],
+				[101.5091550350189, 0.5044204400439162],
+				[101.50894045829773, 0.5033905116152878],
+				[101.50890827178955, 0.5028326336485093],
+				[101.50999188423157, 0.5013735679717032]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Kembang Sari",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Cintaraja",
+            "customer" : "8 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45438835024834, 0.5091168043230406],
+				[101.45359307527542, 0.5090095201971032],
+				[101.45386397838593, 0.5083711796108492]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Kartini",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "8 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.44749373197556, 0.5207115256337261],
+				[101.45233377814293, 0.5206149700960508]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Kundur",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "1 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4493203163147, 0.5152883206511187],
+				[101.45065069198608, 0.5152829564500189]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Lembaga Permasyarakatan",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Tangkerang Utara",
+            "customer" : "44 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.46067947149277, 0.5103224095654916],
+				[101.4620393514633, 0.507512906454258],
+				[101.46206349134445, 0.5070837698332603],
+				[101.46199107170105, 0.5061852649409024],
+				[101.46189585328102, 0.5049488147214012]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Muara Takus",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "2 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4509591460228, 0.519772791176979],
+				[101.45153045654297, 0.519772791176979],
+				[101.45151972770691, 0.5186141244551262]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Pattimura",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Cintaraja",
+            "customer" : "9 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.46067142486571, 0.5103264327194239],
+				[101.46018594503401, 0.5102191486136384],
+				[101.45918548107147, 0.5102111023056212],
+				[101.45658910274506, 0.5103264327194239],
+				[101.45441114902496, 0.5102701085641047],
+				[101.4514660835266, 0.510259380153521],
+				[101.45087331533432, 0.5100716329652478],
+				[101.44972801208496, 0.5096022649706213]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Ronggowarsito",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Sail",
+            "Kelurahan" : "Cintaraja",
+            "customer" : "51 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45230293273926, 0.5133357511565609],
+				[101.46075189113616, 0.513126547246748],
+				[101.46287083625793, 0.5130889978263142],
+				[101.46351456642151, 0.5131560503626506],
+				[101.46440774202347, 0.513078269420425],
+				[101.4656737446785, 0.5130836336233824],
+				[101.465764939785, 0.513201646086967],
+				[101.46594196557999, 0.5132231028982872]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Sewu",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "8 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.45018935203552, 0.5202233837336522],
+				[101.45064532756805, 0.520201926945957],
+				[101.45089209079742, 0.5200570936271862],
+				[101.45229220390318, 0.5200517294301321]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Sumatra",
+            "Wilayah" : "Wilayah 02",
+            "Kecamatan" : "Pekanbaru Kota",
+            "Kelurahan" : "Simpang Empat",
+            "customer" : "7 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.44860684871674, 0.5175144637127588],
+				[101.44854784011841, 0.5140170048667317],
+				[101.44877314567566, 0.5135342266544288],
+				[101.44945979118347, 0.5130299915937458],
+				[101.44974410533905, 0.5127295962195756],
+				[101.45088136196135, 0.5101333213277098]
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"nama_jalan": "Jalan Tangkuban Perahu",
+            "Wilayah" : "Wilayah 01",
+            "Kecamatan" : "Lima Puluh",
+            "Kelurahan" : "Sekip",
+            "customer" : "63 Orang"
+		},
+		"geometry": {
+			"type": "LineString",
+			"coordinates": [
+				[101.4649200439453, 0.5300827699064254],
+				[101.46566838026047, 0.5298682023646667],
+				[101.46641939878464, 0.5297568954494539]
 			]
 		}
 	}]
